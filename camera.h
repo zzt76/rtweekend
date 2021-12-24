@@ -25,9 +25,9 @@ public:
 
 private:
     point3 origin;
+    point3 lower_left_corner;
     vec3 horizontal;
     vec3 vertical;
-    vec3 lower_left_corner;
 };
 
 #endif // implement a simple camera
